@@ -1,0 +1,57 @@
+[versions]
+activityKtx = "1.10.1"
+appcompat = "1.7.0"
+composeBom = "2025.05.01"
+composeRuntime = "1.8.2"
+constraintlayout = "2.2.1"
+coreKtx = "1.16.0"
+firebaseMessaging = "24.1.1"
+fragmentKtx = "1.8.7"
+gson = "2.11.0"
+kotlin = "2.3.21"
+agp = "9.1.1"
+googleServices = "4.4.2"
+ksp = "2.3.9"
+legacySupportV4 = "1.0.0"
+lifecycleLivedataKtx = "2.9.0"
+material = "1.12.0"
+okhttp = "4.12.0"
+preferenceKtx = "1.2.1"
+recyclerview = "1.4.0"
+roomKtx = "2.7.1"
+roomRuntime = "2.7.1"
+stfalconimageviewer = "master"
+swiperefreshlayout = "1.1.0"
+workRuntimeKtx = "2.10.1"
+
+
+[libraries]
+activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
+androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firebaseMessaging" }
+fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+legacy-support-v4 = { module = "androidx.legacy:legacy-support-v4", version.ref = "legacySupportV4" }
+lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+preference-ktx = { module = "androidx.preference:preference-ktx", version.ref = "preferenceKtx" }
+recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomKtx" }
+room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomKtx" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+stfalconimageviewer = { module = "com.github.stfalcon-studio:StfalconImageViewer", version.ref = "stfalconimageviewer" }
+swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
+work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "workRuntimeKtx" }
+compose-runtime = { module = "androidx.compose.runtime:runtime", version.ref = "composeRuntime" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+google-services = { id = "com.google.gms.google-services" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }

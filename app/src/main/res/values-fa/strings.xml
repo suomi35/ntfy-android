@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel_notifications_min_name">اولویت اصلی</string>
+    <string name="channel_notifications_default_name">اولویت پیش تعریف</string>
+    <string name="channel_notifications_low_name">اولویت پایین</string>
+    <string name="channel_notifications_group_default_name">پیش تعریف</string>
+    <string name="channel_subscriber_notification_instant_text">عضویت یافته در تحویل فوری اطلاعیه ها</string>
+    <string name="channel_subscriber_notification_instant_text_one">عضویت یافته در تحویل یک موضوع</string>
+    <string name="channel_subscriber_notification_instant_text_three">عضویت یافته در دریافت سه موضوع</string>
+    <string name="channel_subscriber_notification_instant_text_five">عضویت یافته در دریافت پنج موضوع</string>
+    <string name="channel_subscriber_notification_instant_text_more">عضویت یافته در دریافت %1$d موضوع</string>
+    <string name="channel_subscriber_notification_noinstant_text">عضویت یافته در موضوعات</string>
+    <string name="main_menu_settings_title">تنظیمات</string>
+    <string name="main_menu_report_bug_title">گزارش یک نقص فنی</string>
+    <string name="main_menu_docs_title">مطالعه مستندات</string>
+    <string name="main_menu_rate_title">رتبه دهی به اپ ⭐</string>
+    <string name="main_menu_donate_title">حمایت مالی 💸</string>
+    <string name="main_item_status_text_one">%1$d اطلاعیه</string>
+    <string name="main_item_status_text_not_one">%1$d اطلاعیه</string>
+    <string name="main_item_status_reconnecting">در حال اتصال دوباره …</string>
+    <string name="main_item_date_yesterday">دیروز</string>
+    <string name="main_no_subscriptions_text">به نظر می رسد شما هنوز هیچ عضویتی ندارید.</string>
+    <string name="channel_notifications_high_name">اولویت بالا</string>
+    <string name="channel_notifications_max_name">بالاترین اولویت</string>
+    <string name="channel_subscriber_service_name">آبونمان دریافت خدمات</string>
+    <string name="channel_subscriber_notification_title">گوش به زنگ دریافت اطلاعیه</string>
+    <string name="channel_subscriber_notification_instant_text_two">عضویت یافته در دریافت دو موضوع</string>
+    <string name="channel_subscriber_notification_instant_text_four">عضویت یافته در دریافت چهار موضوع</string>
+    <string name="channel_subscriber_notification_instant_text_six">عضویت یافته در دریافت شش موضوع</string>
+    <string name="channel_subscriber_notification_noinstant_text_one">عضویت یافته در یک موضوع</string>
+    <string name="refresh_message_result">%1$d اطلاعیه دریافت شد</string>
+    <string name="refresh_message_no_results">همه چیز بروزآوری شده است</string>
+    <string name="refresh_message_error_one">بروزآوری آبونمان %1$s ناموفق بود</string>
+    <string name="main_menu_notifications_enabled">ارسال اطلاعیه در</string>
+    <string name="main_menu_notifications_disabled_forever">اطلاعیه ها بی صدا شده اند</string>
+    <string name="main_menu_notifications_disabled_until">اطلاعیه ها تا %1$s بی صدا شده اند</string>
+    <string name="main_action_mode_menu_unsubscribe">لغو اشتراک</string>
+    <string name="main_action_mode_delete_dialog_message">از سرفصل های انتخاب شده لغو عضویت و همه اطلاعیه ها را برای همیشه پاک کن؟</string>
+    <string name="main_action_mode_delete_dialog_permanently_delete">حذف برای همیشه</string>
+    <string name="main_action_mode_delete_dialog_cancel">لغو</string>
+    <string name="main_add_button_description">افزون اشتراک</string>
+</resources>
